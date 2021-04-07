@@ -1,3 +1,4 @@
+# Material unneeded files
 */mdl/material.css
 */mdl/material.js
 */mdl/bower.json
@@ -6,3 +7,6 @@
 */mdl/material.min.css.map
 */mdl/package.json
 */mdl/LICENSE
+
+# VSC Workspace file
+workspace.code-workspace
