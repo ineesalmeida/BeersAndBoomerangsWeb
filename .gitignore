@@ -1,4 +1,8 @@
-*/material.css
-*/material.js
-*/bower.json
-*/package.json
+*/mdl/material.css
+*/mdl/material.js
+*/mdl/bower.json
+*/mdl/package.json
+*/mdl/material.min.js.map
+*/mdl/material.min.css.map
+*/mdl/package.json
+*/mdl/LICENSE
