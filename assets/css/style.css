@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+:root {
+    /* Query Sizes */
+    --bp-largest: 75em;
+    --bp-large: 68.75em;
+    --bp-medium: 56.25em;
+    --bp-small: 37.5em;
+    --bp-smallest: 31.25em;
+    
+    /* Colors */
+    --yellow-light1: #F7CA85;
+    --yellow: #F6C272;
+    --yellow-dark1: #F3AF49;
+    --blue-light2: #77CBE2;
+    --blue-light1: #61C2DD;
+    --blue: #49BAD9;
+    --blue-dark1: #2DAED2;
+    --green: #9CCB65;
+    --red: #F35050;
+    --red-dark1: #F02929;
+    --darkBlue: #3F569A;
+    --darkGrey: darkslategrey
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background-color: var(--blue);
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 1.5rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Londrina Solid';
+    text-transform: uppercase;
+}
+
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+}
+
+.section {
+    padding: 1.5rem 4rem;
+    min-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section.header {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    width: 45rem;
+}
+
+ img {
+    width: 100%;
+}
+
+.kangaroo {
+    width: 40rem;
+}
