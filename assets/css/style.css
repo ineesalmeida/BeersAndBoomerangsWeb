@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import "components/navbar.css";
+@import "components/header.css";
 
 :root {
     /* Query Sizes */
@@ -45,11 +47,21 @@ html {
 body {
     font-family: 'Open Sans';
     font-size: 1.5rem;
+    color: var(--darkGrey)
 }
 
 h1, h2, h3, h4 {
     font-family: 'Londrina Solid';
     text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a.disable {
+    pointer-events:none;
 }
 
 .container {
@@ -64,22 +76,22 @@ h1, h2, h3, h4 {
 
 .section {
     padding: 1.5rem 4rem;
-    min-width: 50rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.section.header {
-    background-color: rgba(255, 255, 255, 0.1);
+.content {
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.logo {
-    width: 45rem;
-}
 
- img {
+img {
     width: 100%;
 }
 
