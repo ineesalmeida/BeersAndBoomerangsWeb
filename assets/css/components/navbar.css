@@ -1,5 +1,12 @@
+.navbar {
+    background-color: rgba(255, 255, 255, 0.2);
+    position: sticky;
+    top: 0rem;
+    display: block; 
+    z-index: 120;
+}
+
 .navbar__list {
-    margin-top: 2rem;
     display: flex;
 }
 
@@ -7,7 +14,7 @@
     list-style-type: none;
     margin: 0;
     font-size: 1.2em;
-    padding: 1rem 2.5rem;
+    padding: 2rem 3rem;
     text-transform: uppercase;
     background-color: transparent;
     transition: all 0.3s ease-in-out;
@@ -17,3 +24,16 @@
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+@media only screen and (max-width: 600px) {
+    .navbar__item {
+        font-size: 1em;
+        padding: 1rem 2rem;
+    }
+}  
+
+@media only screen and (max-width: 400px) {
+    .navbar__item {
+        font-size: 0.9em;
+        padding: 1rem 0.8rem;
+    }
+}  

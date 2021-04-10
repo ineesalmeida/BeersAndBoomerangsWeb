@@ -1,0 +1,124 @@
+:root {
+  --normal-padding: 6rem;
+  --small-padding: 3rem;
+  --smallest-padding: 1.5rem;
+}
+
+/* Helper Function */
+/* Parallax Styles */
+.parallax-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 8px;
+    perspective-origin: 0%;
+}
+
+.image, .foreground__image, .background__image {
+    position: absolute;
+    transform-origin: 0 50%;
+}
+
+.background__image {
+    transform: translateZ(0px) scale(1);
+    width: 100%;
+    position: relative;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.foreground__image {
+    bottom: 0;
+    left: 0;
+    transform: translateZ(2px) scale(0.75);
+}
+
+/* text */
+.foreground__image.text {
+    top: -4rem;
+    left: var(--normal-padding);
+    width: 50%;
+    transform: translateZ(1.5px) scale(0.8);
+    z-index: 50;
+    padding: 2rem;
+}
+
+/* back bush */
+.foreground__image.bush_back {
+    bottom: 0rem;
+    transform: translateZ(2.2px) scale(0.7);
+}
+
+/* kangaroo */
+.foreground__image.kangaroo {
+    bottom: 9rem;
+    left: 5%;
+    width: 50rem;
+    z-index: 20;
+    transform: translateZ(5px) scale(0.375);
+}
+
+/* mailing list call */
+.foreground__image.mailing_list_call {
+    bottom: 20rem;
+    left: auto;
+    right: var(--normal-padding);
+    width: 60rem;
+    z-index: 20;
+    transform-origin: -135% 50%;
+    /* top: 18rem; */
+    /* transform: translateZ(-3px) scale(1.35); */
+    transform: translateZ(5px) scale(0.375);
+}
+
+/* front bush */
+.foreground__image.bush_front {
+    z-index: 30;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    /* kangaroo */
+    .foreground__image.kangaroo {
+        bottom: 5%;
+        left: 5%;
+        width: 60%;
+    }
+}  
+
+
+@media only screen and (max-width: 700px) {
+    .background__image {
+        height: 120vh;
+        width: auto;
+    }
+
+    /* text */
+    .foreground__image.text {
+        top: -4rem;
+        left: 0;
+        width: 100%;
+        padding: 4rem;
+    }
+}  
+
+
+@media only screen and (max-width: 300px) {
+
+    /* text */
+    .foreground__image.text {
+        top: -4rem;
+        left: 0;
+        width: 100%;
+        padding: 3rem;
+    }
+
+    /* back bush */
+    .foreground__image.bush_back {
+        bottom: 6rem;
+    }
+}  
