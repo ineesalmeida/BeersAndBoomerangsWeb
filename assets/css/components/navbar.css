@@ -13,8 +13,8 @@
 .navbar__item {
     list-style-type: none;
     margin: 0;
-    font-size: 1.2em;
-    padding: 2rem 3rem;
+    font-size: 1.1em;
+    padding: 1.5rem 2.5rem;
     text-transform: uppercase;
     background-color: transparent;
     transition: all 0.3s ease-in-out;
