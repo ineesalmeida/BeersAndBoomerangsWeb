@@ -1,5 +1,7 @@
+
 .navbar {
     background-color: rgba(255, 255, 255, 0.2);
+    position: -webkit-sticky;
     position: sticky;
     top: 0rem;
     display: block; 
@@ -7,6 +9,8 @@
 }
 
 .navbar__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -17,6 +21,8 @@
     padding: 1.5rem 2.5rem;
     text-transform: uppercase;
     background-color: transparent;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -40,4 +46,4 @@
         font-size: 0.7em;
         padding: 1rem 0.8rem;
     }
-}  
+}
