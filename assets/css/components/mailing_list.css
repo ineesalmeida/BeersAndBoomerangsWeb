@@ -3,7 +3,9 @@
     color: var(--darkGreye);
     padding: 2rem 4rem;
     border-radius: 2rem;
-    width: 60rem;
+    max-width: 60rem;
+    margin-top: -5rem;
+    margin-left: 4rem;
 }
 
 .mailing_list_call__title {
@@ -68,3 +70,40 @@
 .form_item .button:active {
     transform: translateY(-1px);
 }
+
+
+@media only screen and (max-width: 900px) {
+    .mailing_list_call {
+        margin-left: 0rem;
+    }
+}  
+
+@media only screen and (max-width: 500px) {
+
+    .mailing_list_call {
+        padding: 1rem 2rem;
+    }
+    .mailing_list_call__title {
+        text-transform: uppercase;
+        line-height: 1.4em;
+        font-size: 1.5em;
+    }
+    
+    .mailing_list_call__text {
+        font-size: 1em;
+    }
+    
+    .mailing_list_call__text:last-of-type {
+        margin-bottom: 1.2rem;
+    }
+
+    .form_item {
+        flex-direction: column;
+    }
+
+    .form_item .email,
+    .form_item .button{
+        width: 100%;
+        margin-top: 1rem;
+    }
+}  

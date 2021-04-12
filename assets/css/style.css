@@ -5,6 +5,7 @@
 @import "components/parallax.css";
 @import "components/mailing_list.css";
 @import "sections/home.css";
+@import "sections/policy.css";
 
 :root {
     /* Query Sizes */
@@ -50,7 +51,7 @@ html {
 body {
     font-family: 'Open Sans';
     font-size: 1.5rem;
-    color: var(--darkGrey)
+    color: var(--darkGrey);
 }
 
 h1, h2, h3, h4 {
@@ -64,7 +65,7 @@ a {
 }
 
 a.disable {
-    pointer-events:none;
+    pointer-events: none;
 }
 
 .container {

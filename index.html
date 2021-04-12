@@ -20,52 +20,72 @@
         <div class="parallax-container">
             <div class="section header">
                 <div class="logo">
-                    <img src="assets/img/logo-4k.png" />
+                    <img src="assets/img/logo-4k.png" alt="logo" />
                 </div>
             </div>
             <div class="section navbar">
                 <ul class="navbar__list">
                     <li class="navbar__item"><a href="index.html">Home</a></li>
                     <li class="navbar__item"><a href="about.html">About</a></li>
-                    <li class="navbar__item"><a class="disable" href="#">Steam</a></li>
-                    <li class="navbar__item"><a href="#">Oculus</a></li>
+                    <li class="navbar__item"><a href="https://store.steampowered.com/app/1588610?utm_source=website"
+                            target="_blank">Steam Page</a></li>
+                    <li class="navbar__item disable"><a class="disable" href="#">Oculus Page</a></li>
                 </ul>
             </div>
             <div class="section home wrapper">
                 <img class="background__image" src="assets/img/background.png" alt="background">
                 <img class="foreground__image bush_back" src="assets/img/bush_back.png" alt="bush_back" />
-                <img class="foreground__image kangaroo" src="assets/img/kangaroo_long.png" alt="kangaroo" />
                 <img class="foreground__image bush_front" src="assets/img/bush_front.png" alt="bush_front" />
-                <div class="foreground__image text">
-                    <h1 class="home__text">It's a lovely day for a barbecue with your mates, but <br/><span class="emphasis">kangaroos keep trying to steal your beer!</span></h1>
-                    <h2 class="home__subtext">A VR video game under-development. <br/>
-                    Release Date: probably end of 2021</h2>
-                </div>
-                <div class="foreground__image social_media">
-                    <h2 class="social_media__text">Follow the development</h2>
-                </div>
-                <div class="foreground__image mailing_list_call">
-                    <h2 class="mailing_list_call__text">Want first-hand updates?</h2>
-                    <h2 class="mailing_list_call__title">Join our mailing list!</h2>
-                    <div id="mc_embed_signup">
-                        <form action="https://gmail.us1.list-manage.com/subscribe/post?u=b6e6eca0d45fc6d605d2acc56&amp;id=e382d10be5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" noValidate>
-                            <div id="mc_embed_signup_scroll" class="form_item">
-                                <input type="email" name="EMAIL" class="email form_text" id="mce-EMAIL" placeholder="email address" required />
-                                <div aria-hidden="true" hidden="true">
-                                    <input type="text" name="b_b6e6eca0d45fc6d605d2acc56_e382d10be5" tabIndex="-1"/>
-                                </div>
-                                <div class="clear">
-                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
-                                </div>
-                            </div>
-                        </form>
+                <div class="foreground__image hero" id="section_hero">
+                    <div class="hero__item">
+                        <h1 class="home__text">It's a lovely day for a BBQ with the mates, but <br /><span
+                                class="emphasis">kangaroos keep trying to steal your beer!</span></h1>
+                        <h2 class="home__subtext">A VR video game under-development.</h2>
+                        <iframe src="https://store.steampowered.com/widget/1588610/" frameborder="0" width="550"
+                            height="190"></iframe>
                     </div>
-                    <p class="mailing_list_call__text">We will only send emails when there are major news about the development and release of the game. Unsubscribe anytime</p>
+                    <div class="hero__item">
+                        <img class="hero__img" src="assets/img/hero.jpg" alt="screenshot" />
+                    </div>
+                </div>
+                <div class="foreground__image" id="section_mailing_list">
+                    <div class="mailing_list_call">
+                        <h2 class="mailing_list_call__text">Want first-hand updates?</h2>
+                        <h2 class="mailing_list_call__title">Join our mailing list!</h2>
+                        <div id="mc_embed_signup">
+                            <form
+                                action="https://gmail.us1.list-manage.com/subscribe/post?u=b6e6eca0d45fc6d605d2acc56&amp;id=e382d10be5"
+                                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                                class="validate" target="_blank" noValidate>
+                                <div id="mc_embed_signup_scroll" class="form_item">
+                                    <input type="email" name="EMAIL" class="email form_text" id="mce-EMAIL"
+                                        placeholder="email address" required />
+                                    <div aria-hidden="true" hidden="true">
+                                        <input type="text" name="b_b6e6eca0d45fc6d605d2acc56_e382d10be5"
+                                            tabIndex="-1" />
+                                    </div>
+                                    <div class="clear">
+                                        <input type="submit" value="Subscribe" name="subscribe"
+                                            id="mc-embedded-subscribe" class="button" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <p class="mailing_list_call__text">We will only send emails when there are major news about the
+                            development and release of the game. Unsubscribe anytime</p>
+                    </div>
+                    <img class="kangaroo" src="assets/img/kangaroo_long.png" alt="kangaroo" />
                 </div>
             </div>
         </div>
+    </div>
 </body>
 
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b6e6eca0d45fc6d605d2acc56/6d62fd77cdb4ac434928d4538.js");</script>
+<script id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/b6e6eca0d45fc6d605d2acc56/6d62fd77cdb4ac434928d4538.js");
+</script>
+
+<script>
+
+</script>
 
 </html>

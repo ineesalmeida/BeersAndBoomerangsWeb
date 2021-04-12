@@ -1,0 +1,17 @@
+.policy_text {
+    padding: 2rem 4rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .policy_text {
+        font-size: 0.9em;
+    }
+
+    .policy_text h1 {
+        font-size: 3em;
+    }
+
+    .policy_text h2 {
+        font-size: 2em;
+    }
+}  
