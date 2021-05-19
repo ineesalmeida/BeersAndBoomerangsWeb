@@ -52,6 +52,7 @@
       top: -4rem;
       width: 100%;
       -webkit-transform: translateZ(1.5px) scale(0.8);
+         -moz-transform: translateZ(1.5px) scale(0.8);
               transform: translateZ(1.5px) scale(0.8);
       z-index: 50;
       padding: 3rem;
@@ -63,6 +64,7 @@
       height: 35rem;
       width: auto;
       -webkit-transform: translateZ(2.2px) scale(0.7);
+         -moz-transform: translateZ(2.2px) scale(0.7);
               transform: translateZ(2.2px) scale(0.7);
   }
   
@@ -72,6 +74,7 @@
       width: 100%;
       z-index: 20;
       -webkit-transform: translateZ(5px) scale(0.375);
+         -moz-transform: translateZ(5px) scale(0.375);
               transform: translateZ(5px) scale(0.375);
       display: -webkit-box;
       display: -ms-flexbox;
