@@ -6,6 +6,7 @@
 @import "components/mailing_list.css";
 @import "sections/home.css";
 @import "sections/policy.css";
+@import "sections/about.css";
 
 :root {
     /* Query Sizes */
